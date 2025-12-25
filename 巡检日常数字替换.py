@@ -15,7 +15,7 @@ except ImportError:
 # ================= 配置中心 =================
 TEMPLATE_FILE = "月报模板.docx"
 START_DATE = "2024-8-01"  # 也是序号计算的起始点
-END_DATE = "2025-12-31"
+END_DATE = "2025-10-23"
 OUTPUT_FOLDER = "设备月报库"
 
 # 模式设定：每个月最后一个工作日生成月报
@@ -121,3 +121,4 @@ def main():
 if __name__ == "__main__":
 
     main()
+
