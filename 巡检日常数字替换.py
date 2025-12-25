@@ -114,9 +114,10 @@ def main():
             "workday_count": workdays_total
         }
         
-        file_name = f"{dt.year}年{context['month']}月网络安全月报.docx"
+        file_name = f"{dt.year}年{context['month']}月网络安全月报.docx"   // 文件命名
         gen.generate(context, os.path.join(OUTPUT_FOLDER, file_name))
         print(f"生成：{file_name} | 序号: {month_seq} | 工作日: {workdays_total}天")
 
 if __name__ == "__main__":
+
     main()
